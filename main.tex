@@ -1,0 +1,316 @@
+% =====================================================================
+%  系统开发工具基础 · 实验报告模板
+% =====================================================================
+\documentclass[11pt,a4paper]{ctexart}
+
+\usepackage[a4paper,margin=2.2cm,top=2.6cm,bottom=2.6cm,headheight=22pt,headsep=0.6cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+
+% ------------------------- 封面用色（仅封面使用） -------------------------
+\definecolor{oucblue}{RGB}{0,90,160}
+
+% ------------------------- 代码样式（纯黑白，无彩色） -------------------------
+\lstdefinestyle{plain}{
+    basicstyle=\ttfamily\small,
+    frame=single,
+    breaklines=true,
+    showstringspaces=false,
+    numbers=none,
+}
+\lstset{inputencoding=utf8, extendedchars=true, columns=fullflexible}
+\renewcommand{\lstlistingname}{代码}
+
+% ------------------------- 标题层级编号：一、 / 1. / (1) -------------------------
+\ctexset{
+    section = {
+        format = \Large\bfseries,
+        name = {,、},
+        number = \chinese{section},
+        aftername = \quad,
+    },
+    subsection = {
+        format = \large\bfseries,
+        name = {,.},
+        number = \arabic{subsection},
+        aftername = \quad,
+    },
+    subsubsection = {
+        format = \bfseries,
+        name = {(,)},
+        number = \arabic{subsubsection},
+        aftername = \quad,
+    },
+}
+
+% ------------------------- 超链接（黑色） -------------------------
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    citecolor=black,
+    bookmarksnumbered=true,
+    pdftitle={系统开发工具基础 实验报告},
+    CJKbookmarks=true
+}
+
+% ------------------------- 页眉页脚 -------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small 系统开发工具基础 · 实验报告}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\title{}
+\author{}
+
+\begin{document}
+
+% =====================================================================
+%                              封面
+% =====================================================================
+\begin{titlepage}
+    \centering
+    \vspace*{2.5cm}
+
+    {\color{oucblue}\rule{\textwidth}{1.2pt}}\\[0.6cm]
+    {\Huge\bfseries\color{oucblue} 系统开发工具基础}\\[0.4cm]
+    {\LARGE 实验报告}\\[0.6cm]
+    {\color{oucblue}\rule{\textwidth}{1.2pt}}\\[1.6cm]
+
+
+    {\Large 实验周次：第 xx 周}\\[2.2cm]
+
+    \renewcommand{\arraystretch}{1.7}
+    \begin{tabular}{>{\bfseries}r@{\hspace{0.5em}}l}
+        学\qquad 院 &  信息科学与工程学部 \\[2pt]
+        专\qquad 业 &  计算机科学与技术 \\[2pt]
+        姓\qquad 名 &  臧文商 \\[2pt]
+        学\qquad 号 &  25020007160 \\[2pt]
+        实验日期 &  \\[2pt]
+    \end{tabular}
+
+
+\end{titlepage}
+
+% =====================================================================
+%                          课堂练习
+% =====================================================================
+\section{课堂练习}
+
+\subsection{题目一}
+\subsubsection{题目内容}
+\mbox{}
+
+\subsubsection{解题过程}
+\mbox{}
+
+\subsubsection{实验结果}
+\mbox{}
+
+\subsection{题目二}
+\subsubsection{题目内容}
+\mbox{}
+
+\subsubsection{解题过程}
+\mbox{}
+
+\subsubsection{实验结果}
+\mbox{}
+
+\subsection{题目三}
+\subsubsection{题目内容}
+\mbox{}
+
+\subsubsection{解题过程}
+\mbox{}
+
+\subsubsection{实验结果}
+\mbox{}
+
+\subsection{题目四}
+\subsubsection{题目内容}
+\mbox{}
+
+\subsubsection{解题过程}
+\mbox{}
+
+\subsubsection{实验结果}
+\mbox{}
+
+% =====================================================================
+%                          课后练习
+% =====================================================================
+\section{课后练习}
+
+\subsection{题目一}
+\subsubsection{题目内容}
+\mbox{}
+
+\subsubsection{解题过程}
+\mbox{}
+
+\subsubsection{实验结果}
+\mbox{}
+
+\subsection{题目二}
+\subsubsection{题目内容}
+\mbox{}
+
+\subsubsection{解题过程}
+\mbox{}
+
+\subsubsection{实验结果}
+\mbox{}
+
+\subsection{题目三}
+\subsubsection{题目内容}
+\mbox{}
+
+\subsubsection{解题过程}
+\mbox{}
+
+\subsubsection{实验结果}
+\mbox{}
+
+\subsection{题目四}
+\subsubsection{题目内容}
+\mbox{}
+
+\subsubsection{解题过程}
+\mbox{}
+
+\subsubsection{实验结果}
+\mbox{}
+
+\subsection{题目五}
+\subsubsection{题目内容}
+\mbox{}
+
+\subsubsection{解题过程}
+\mbox{}
+
+\subsubsection{实验结果}
+\mbox{}
+
+\subsection{题目六}
+\subsubsection{题目内容}
+\mbox{}
+
+\subsubsection{解题过程}
+\mbox{}
+
+\subsubsection{实验结果}
+\mbox{}
+
+\subsection{题目七}
+\subsubsection{题目内容}
+\mbox{}
+
+\subsubsection{解题过程}
+\mbox{}
+
+\subsubsection{实验结果}
+\mbox{}
+
+\subsection{题目八}
+\subsubsection{题目内容}
+\mbox{}
+
+\subsubsection{解题过程}
+\mbox{}
+
+\subsubsection{实验结果}
+\mbox{}
+
+\subsection{题目九}
+\subsubsection{题目内容}
+\mbox{}
+
+\subsubsection{解题过程}
+\mbox{}
+
+\subsubsection{实验结果}
+\mbox{}
+
+\subsection{题目十}
+\subsubsection{题目内容}
+\mbox{}
+
+\subsubsection{解题过程}
+\mbox{}
+
+\subsubsection{实验结果}
+\mbox{}
+
+\subsection{题目十一}
+\subsubsection{题目内容}
+\mbox{}
+
+\subsubsection{解题过程}
+\mbox{}
+
+\subsubsection{实验结果}
+\mbox{}
+
+\subsection{题目十二}
+\subsubsection{题目内容}
+\mbox{}
+
+\subsubsection{解题过程}
+\mbox{}
+
+\subsubsection{实验结果}
+\mbox{}
+
+\subsection{题目十三}
+\subsubsection{题目内容}
+\mbox{}
+
+\subsubsection{解题过程}
+\mbox{}
+
+\subsubsection{实验结果}
+\mbox{}
+
+\subsection{题目十四}
+\subsubsection{题目内容}
+\mbox{}
+
+\subsubsection{解题过程}
+\mbox{}
+
+\subsubsection{实验结果}
+\mbox{}
+
+\subsection{题目十五}
+\subsubsection{题目内容}
+\mbox{}
+
+\subsubsection{解题过程}
+\mbox{}
+
+\subsubsection{实验结果}
+\mbox{}
+
+% =====================================================================
+%                          解题感悟
+% =====================================================================
+\section{解题感悟}
+
+% =====================================================================
+%                    GitHub 链接和 commit 记录截图
+% =====================================================================
+\section{GitHub链接和commit记录截图}
+
+\subsection{GitHub链接}
+
+\subsection{commit记录截图}
+
+\end{document}
