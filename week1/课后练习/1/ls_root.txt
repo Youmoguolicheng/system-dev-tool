@@ -1,0 +1,16 @@
+total 10832
+-rw-r--r-- 1 guolicheng 197121   18765 Aug 21 00:03 LICENSE.txt
+-rw-r--r-- 1 guolicheng 197121  312948 Aug 21 00:03 ReleaseNotes.html
+drwxr-xr-x 1 guolicheng 197121       0 Aug 24 14:19 bin/
+drwxr-xr-x 1 guolicheng 197121       0 Aug 24 14:19 cmd/
+drwxr-xr-x 1 guolicheng 197121       0 Aug 24 14:19 dev/
+drwxr-xr-x 1 guolicheng 197121       0 Aug 24 14:19 etc/
+-rwxr-xr-x 1 guolicheng 197121  135016 Aug 20 23:47 git-bash.exe*
+-rwxr-xr-x 1 guolicheng 197121  134488 Aug 20 23:47 git-cmd.exe*
+drwxr-xr-x 1 guolicheng 197121       0 Aug 24 14:19 mingw64/
+dr-xr-xr-x 9 guolicheng 197121       0 Aug 30 12:41 proc/
+drwxr-xr-x 1 guolicheng 197121       0 Aug 30 12:40 tmp/
+-rw-r--r-- 1 guolicheng 197121 1932106 Aug 24 14:19 unins001.dat
+-rwxr-xr-x 1 guolicheng 197121 4449992 Aug 24 14:19 unins001.exe*
+-rw-r--r-- 1 guolicheng 197121   25396 Aug 24 14:19 unins001.msg
+drwxr-xr-x 1 guolicheng 197121       0 Aug 24 14:19 usr/
