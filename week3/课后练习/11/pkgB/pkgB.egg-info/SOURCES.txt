@@ -1,0 +1,7 @@
+pyproject.toml
+pkgB.egg-info/PKG-INFO
+pkgB.egg-info/SOURCES.txt
+pkgB.egg-info/dependency_links.txt
+pkgB.egg-info/requires.txt
+pkgB.egg-info/top_level.txt
+pkgb/__init__.py
