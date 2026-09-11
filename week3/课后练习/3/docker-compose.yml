@@ -1,0 +1,7 @@
+services:
+  pyapp:
+    build: .
+    depends_on:
+      - redis
+  redis:
+    image: redis:alpine
