@@ -1,0 +1,6 @@
+rules:
+  - id: detect-popen-shell-true
+    pattern: subprocess.Popen($CMD, shell=True)
+    message: "Dangerous: subprocess.Popen with shell=True"
+    languages: [python]
+    severity: ERROR
